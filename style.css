@@ -49,3 +49,46 @@ section {
   background-repeat: no-repeat;
   background-position: right;
 }
+#experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+#experience h1 {
+  margin-left: 20px;
+}
+#experience h1:hover {
+  color: tomato;
+}
+.div1 {
+  float: left;
+  margin-top: 100px;
+  width: 500px;
+  height: auto;
+  border-left: 7px solid rgb(145, 76, 76);
+  box-shadow: 7px 7px 5px;
+  padding-left: 15px;
+}
+.div1 h3 {
+  color: brown;
+}
+.div2 {
+  float: left;
+  margin-top: 100px;
+  width: 500px;
+  height: auto;
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+  box-shadow: 7px 7px 5px;
+  padding-left: 15px;
+  margin-left: 10%;
+}
+.div2 h3 {
+  color: brown;
+}
+footer p {
+  text-align: center;
+}
+.italic {
+  font-style: italic;
+}
